@@ -1,0 +1,13 @@
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.CrossCuting.Commons\bin\Debug\AHT.CrossCuting.Commons.dll
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.CrossCuting.Commons\bin\Debug\AHT.CrossCuting.Commons.pdb
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.CrossCuting.Commons\bin\Debug\Castle.Core.dll
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.CrossCuting.Commons\bin\Debug\Castle.Windsor.dll
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.CrossCuting.Commons\bin\Debug\NLog.dll
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.CrossCuting.Commons\bin\Debug\Castle.Core.xml
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.CrossCuting.Commons\bin\Debug\Castle.Windsor.xml
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.CrossCuting.Commons\bin\Debug\NLog.xml
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.CrossCuting.Commons\obj\Debug\AHT.CrossCuting.Commons.csproj.AssemblyReference.cache
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.CrossCuting.Commons\obj\Debug\AHT.CrossCuting.Commons.csproj.CoreCompileInputs.cache
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.CrossCuting.Commons\obj\Debug\AHT.CrossCuting.Commons.csproj.CopyComplete
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.CrossCuting.Commons\obj\Debug\AHT.CrossCuting.Commons.dll
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.CrossCuting.Commons\obj\Debug\AHT.CrossCuting.Commons.pdb

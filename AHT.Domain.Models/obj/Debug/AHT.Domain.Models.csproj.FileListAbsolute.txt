@@ -1,0 +1,16 @@
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Domain.Models\bin\Debug\AHT.Domain.Models.dll
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Domain.Models\bin\Debug\AHT.Domain.Models.pdb
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Domain.Models\bin\Debug\AHT.Domain.Commons.dll
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Domain.Models\bin\Debug\FluentAssertions.dll
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Domain.Models\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Domain.Models\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Domain.Models\bin\Debug\AHT.Domain.Commons.pdb
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Domain.Models\bin\Debug\FluentAssertions.pdb
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Domain.Models\bin\Debug\FluentAssertions.xml
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Domain.Models\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Domain.Models\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Domain.Models\obj\Debug\AHT.Domain.Models.csproj.AssemblyReference.cache
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Domain.Models\obj\Debug\AHT.Domain.Models.csproj.CoreCompileInputs.cache
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Domain.Models\obj\Debug\AHT.Domain.Models.csproj.CopyComplete
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Domain.Models\obj\Debug\AHT.Domain.Models.dll
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Domain.Models\obj\Debug\AHT.Domain.Models.pdb

@@ -1,0 +1,6 @@
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Application.Prizes.Interfaces\bin\Debug\AHT.Application.Prizes.Interfaces.dll
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Application.Prizes.Interfaces\bin\Debug\AHT.Application.Prizes.Interfaces.pdb
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Application.Prizes.Interfaces\obj\Debug\AHT.Application.Prizes.Interfaces.csproj.AssemblyReference.cache
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Application.Prizes.Interfaces\obj\Debug\AHT.Application.Prizes.Interfaces.csproj.CoreCompileInputs.cache
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Application.Prizes.Interfaces\obj\Debug\AHT.Application.Prizes.Interfaces.dll
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Application.Prizes.Interfaces\obj\Debug\AHT.Application.Prizes.Interfaces.pdb

@@ -1,0 +1,5 @@
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Application.Mappers\bin\Debug\AHT.Application.Mappers.dll
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Application.Mappers\bin\Debug\AHT.Application.Mappers.pdb
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Application.Mappers\obj\Debug\AHT.Application.Mappers.csproj.CoreCompileInputs.cache
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Application.Mappers\obj\Debug\AHT.Application.Mappers.dll
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Application.Mappers\obj\Debug\AHT.Application.Mappers.pdb

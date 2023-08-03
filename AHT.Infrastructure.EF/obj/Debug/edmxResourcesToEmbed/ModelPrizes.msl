@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="prizes_dbModelStoreContainer" CdmEntityContainer="prizes_dbEntities">
+    <EntitySetMapping Name="prizesConfig">
+      <EntityTypeMapping TypeName="prizes_dbModel.prizesConfig">
+        <MappingFragment StoreEntitySet="prizesConfig">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="prizesDiscounts">
+      <EntityTypeMapping TypeName="prizes_dbModel.prizesDiscounts">
+        <MappingFragment StoreEntitySet="prizesDiscounts">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="configId" ColumnName="configId" />
+          <ScalarProperty Name="typeDiscount" ColumnName="typeDiscount" />
+          <ScalarProperty Name="discountValue" ColumnName="discountValue" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

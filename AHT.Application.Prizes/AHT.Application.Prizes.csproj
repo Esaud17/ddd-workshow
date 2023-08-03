@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{37B9E267-F90F-486E-9CB9-D16675C93A86}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AHT.Application.Prizes</RootNamespace>
+    <AssemblyName>AHT.Application.Prizes</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PrizeApplication.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AHT.Application.Prizes.Interfaces\AHT.Application.Prizes.Interfaces.csproj">
+      <Project>{E4BD34D6-A244-4D63-9C20-05633A4A3FA6}</Project>
+      <Name>AHT.Application.Prizes.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AHT.CrossCuting.Commons\AHT.CrossCuting.Commons.csproj">
+      <Project>{DEE9FBC0-E4CD-4B99-866D-DF83D6DF2132}</Project>
+      <Name>AHT.CrossCuting.Commons</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AHT.Domain.Models\AHT.Domain.Models.csproj">
+      <Project>{8AAB75A1-C9BF-46B2-A78F-3F623CA10476}</Project>
+      <Name>AHT.Domain.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AHT.Domain.Services\AHT.Domain.Services.csproj">
+      <Project>{64EA5ADE-947A-4A71-BD6A-4F65A5744FE0}</Project>
+      <Name>AHT.Domain.Services</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

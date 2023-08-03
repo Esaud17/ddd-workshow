@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5F37213C-7F47-4A48-839D-5025AE1AFBC0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AHT.Infrastructure.IoC</RootNamespace>
+    <AssemblyName>AHT.Infrastructure.IoC</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Castle.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.Core.5.1.0\lib\net462\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Windsor, Version=6.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.Windsor.6.0.0\lib\net462\Castle.Windsor.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.5.2.2\lib\net46\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\CommonsDependencyInstaller.cs" />
+    <Compile Include="Common\RequireInterceptorInstaller.cs" />
+    <Compile Include="Prizes\PrizesDependencyInstaller.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AHT.Application.Prizes.Interfaces\AHT.Application.Prizes.Interfaces.csproj">
+      <Project>{E4BD34D6-A244-4D63-9C20-05633A4A3FA6}</Project>
+      <Name>AHT.Application.Prizes.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AHT.Application.Prizes\AHT.Application.Prizes.csproj">
+      <Project>{37B9E267-F90F-486E-9CB9-D16675C93A86}</Project>
+      <Name>AHT.Application.Prizes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AHT.CrossCuting.Commons\AHT.CrossCuting.Commons.csproj">
+      <Project>{DEE9FBC0-E4CD-4B99-866D-DF83D6DF2132}</Project>
+      <Name>AHT.CrossCuting.Commons</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AHT.Domain.Models.Commons\AHT.Domain.Commons.csproj">
+      <Project>{0170DF58-4819-4BA1-A566-A2D40456E721}</Project>
+      <Name>AHT.Domain.Commons</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AHT.Domain.Repositories\AHT.Domain.Repositories.csproj">
+      <Project>{4CD0C2A0-6110-4F90-99BB-8DBE40A7EA6B}</Project>
+      <Name>AHT.Domain.Repositories</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AHT.Domain.Services\AHT.Domain.Services.csproj">
+      <Project>{64EA5ADE-947A-4A71-BD6A-4F65A5744FE0}</Project>
+      <Name>AHT.Domain.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AHT.Infrastructure.EF.Repositories\AHT.Infrastructure.EF.Repositories.csproj">
+      <Project>{D798F1D8-7C39-4FF0-9552-D410524B5E89}</Project>
+      <Name>AHT.Infrastructure.EF.Repositories</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AHT.Infrastructure.EF\AHT.Infrastructure.EF.csproj">
+      <Project>{1CBB548B-E93B-4F5B-B9FB-362C5F8F80D8}</Project>
+      <Name>AHT.Infrastructure.EF</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

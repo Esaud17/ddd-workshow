@@ -1,0 +1,14 @@
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Domain.Models.Commons\bin\Debug\AHT.Domain.Commons.dll
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Domain.Models.Commons\bin\Debug\AHT.Domain.Commons.pdb
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Domain.Models.Commons\bin\Debug\FluentAssertions.dll
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Domain.Models.Commons\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Domain.Models.Commons\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Domain.Models.Commons\bin\Debug\FluentAssertions.pdb
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Domain.Models.Commons\bin\Debug\FluentAssertions.xml
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Domain.Models.Commons\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Domain.Models.Commons\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Domain.Models.Commons\obj\Debug\AHT.Domain.Commons.csproj.AssemblyReference.cache
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Domain.Models.Commons\obj\Debug\AHT.Domain.Commons.csproj.CoreCompileInputs.cache
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Domain.Models.Commons\obj\Debug\AHT.Domain.Commons.csproj.CopyComplete
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Domain.Models.Commons\obj\Debug\AHT.Domain.Commons.dll
+D:\Projectos Softwares\Visual Studio\AHT.Prizes.Services\AHT.Domain.Models.Commons\obj\Debug\AHT.Domain.Commons.pdb
