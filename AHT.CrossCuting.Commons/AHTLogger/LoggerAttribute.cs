@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace AHT.CrossCuting.Commons.AHTLogger
 {
- 
+
     [AttributeUsage(AttributeTargets.Method)]
-    public class AHTLogAttribute : Attribute
+    public class LoggerAttribute : Attribute
     {
 
     }

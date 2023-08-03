@@ -20,6 +20,10 @@ namespace AHT.Infrastructure.IoC.Prizes
             .Register(Component.For<prizes_dbEntities>().LifeStyle.Transient);
 
             container
+                .Register(Component.For<LogInterceptor>()
+                .LifeStyle.Transient);
+
+            container
                .Register(Component.For<ILogger>()
                .UsingFactoryMethod(LogManager.GetCurrentClassLogger)
                .LifeStyle.Transient);

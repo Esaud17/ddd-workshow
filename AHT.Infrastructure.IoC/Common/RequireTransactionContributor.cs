@@ -11,16 +11,16 @@ using System.Threading.Tasks;
 
 namespace AHT.Infrastructure.IoC.Common
 {
-    public class RequireInterceptorInstaller : IContributeComponentModelConstruction
+    public class RequireTransactionContributor : IContributeComponentModelConstruction
     {
         public void ProcessModel(IKernel kernel, ComponentModel model)
         {
+            
             var loggerMethods = model
-             .Implementation
-               .GetMethods()
-               .Where(m => AttributesUtil.GetAttribute<AHTLogAttribute>(m) != null)
-               .ToList();
-
+              .Implementation
+                .GetMethods()
+                .Where(m => AttributesUtil.GetAttribute<LoggerAttribute>(m) != null)
+                .ToList();
 
             if (loggerMethods.Any())
             {

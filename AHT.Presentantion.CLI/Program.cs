@@ -17,10 +17,9 @@ namespace AHT.Presentantion.CLI
         {
             var container = new WindsorContainer();
 
-            container.Kernel.ComponentModelBuilder.AddContributor(new RequireInterceptorInstaller());
-            container.
-                Install(FromAssembly.InThisApplication(), FromAssembly.InDirectory(new ApplicationAssemblyFilter())).
-                Install(FromAssembly.Named("AHT.Infrastructure.IoC")); 
+            container.Kernel.ComponentModelBuilder
+            .AddContributor(new RequireTransactionContributor());
+            container.Install(FromAssembly.Named("AHT.Infrastructure.IoC"));
 
 
             var service = container.Resolve<IPrizeApplication>();

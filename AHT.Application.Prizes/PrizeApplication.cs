@@ -18,7 +18,7 @@ namespace AHT.Application.Prizes
             _prizesDomainService1 = prizesDomainService;
         }
 
-        [AHTLogAttribute]
+        [LoggerAttribute]
         public void excecute()
         {
             //var x = _prizesDomainService1.GetAllPrizes();

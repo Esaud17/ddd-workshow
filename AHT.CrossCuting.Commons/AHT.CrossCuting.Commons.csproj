@@ -54,7 +54,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AHTLogger\AHTLogAttribute.cs" />
+    <Compile Include="AHTLogger\LoggerAttribute.cs" />
     <Compile Include="AHTLogger\CustomLogger.cs" />
     <Compile Include="AHTLogger\ICustomLogger.cs" />
     <Compile Include="AHTLogger\LogInterceptor.cs" />
